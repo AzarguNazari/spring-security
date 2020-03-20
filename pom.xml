@@ -14,8 +14,6 @@
 	<name>spring-secuirty</name>
 	<description>Demo project for Spring Boot</description>
 
-	<!-- TODO categorization of dependencies -->
-
 	<properties>
 		<java.version>1.8</java.version>
 		<javax.servlet.jsp-api.version>2.3.2-b01</javax.servlet.jsp-api.version>
