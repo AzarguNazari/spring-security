@@ -1,18 +1,16 @@
 package basicauthentication.persistence.model;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
 import javax.persistence.*;
 import java.util.Calendar;
 import java.util.Date;
 
 @Entity
-@Setter
-@Getter
+@Data
 public class PasswordResetToken {
 
-    private static final int EXPIRATION = 60 * 24;
+    private static final int EXPIRATION = 60 * 24; // = one day
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -44,7 +42,6 @@ public class PasswordResetToken {
         this.expiryDate = calculateExpiryDate(EXPIRATION);
     }
 
-
     private Date calculateExpiryDate(final int expiryTimeInMinutes) {
         final Calendar cal = Calendar.getInstance();
         cal.setTimeInMillis(new Date().getTime());
@@ -56,60 +53,17 @@ public class PasswordResetToken {
         this.token = token;
         this.expiryDate = calculateExpiryDate(EXPIRATION);
     }
-
-    //
-
-    @Override
-    public int hashCode() {
-        final int prime = 31;
-        int result = 1;
-        result = prime * result + ((expiryDate == null) ? 0 : expiryDate.hashCode());
-        result = prime * result + ((token == null) ? 0 : token.hashCode());
-        result = prime * result + ((user == null) ? 0 : user.hashCode());
-        return result;
-    }
-
-    @Override
-    public boolean equals(final Object obj) {
-        if (this == obj) {
-            return true;
-        }
-        if (obj == null) {
-            return false;
-        }
-        if (getClass() != obj.getClass()) {
-            return false;
-        }
-        final PasswordResetToken other = (PasswordResetToken) obj;
-        if (expiryDate == null) {
-            if (other.expiryDate != null) {
-                return false;
-            }
-        } else if (!expiryDate.equals(other.expiryDate)) {
-            return false;
-        }
-        if (token == null) {
-            if (other.token != null) {
-                return false;
-            }
-        } else if (!token.equals(other.token)) {
-            return false;
-        }
-        if (user == null) {
-            if (other.user != null) {
-                return false;
-            }
-        } else if (!user.equals(other.user)) {
-            return false;
-        }
-        return true;
-    }
-
-    @Override
-    public String toString() {
-        final StringBuilder builder = new StringBuilder();
-        builder.append("Token [String=").append(token).append("]").append("[Expires").append(expiryDate).append("]");
-        return builder.toString();
-    }
-
 }
+
+/*
+
+    This class is to store the reset time of user password
+    A password token expires within one day if the user doesn't change the password
+    To store the password token expiration, we need the following information:
+        - id      (primary key)
+        - token   (token)
+        - expiryData   (the date of expiration)
+
+    For every token reset expiration, only one user can have and one use can only have one reset token at a time
+
+ */

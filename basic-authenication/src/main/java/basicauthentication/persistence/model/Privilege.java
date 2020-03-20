@@ -1,5 +1,7 @@
 package basicauthentication.persistence.model;
 
+import lombok.Data;
+
 import java.util.Collection;
 
 import javax.persistence.Entity;
@@ -8,6 +10,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 
+@Data
 @Entity
 public class Privilege {
 
@@ -17,6 +20,7 @@ public class Privilege {
 
     private String name;
 
+    // A role can have multiple privileges and a privilege can be applied to several roles (many to many relationship)
     @ManyToMany(mappedBy = "privileges")
     private Collection<Role> roles;
 
@@ -28,62 +32,14 @@ public class Privilege {
         super();
         this.name = name;
     }
-
-    //
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(final Long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(final String name) {
-        this.name = name;
-    }
-
-    public Collection<Role> getRoles() {
-        return roles;
-    }
-
-    public void setRoles(final Collection<Role> roles) {
-        this.roles = roles;
-    }
-
-    @Override
-    public int hashCode() {
-        final int prime = 31;
-        int result = 1;
-        result = prime * result + ((name == null) ? 0 : name.hashCode());
-        return result;
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj)
-            return true;
-        if (obj == null)
-            return false;
-        if (getClass() != obj.getClass())
-            return false;
-        Privilege other = (Privilege) obj;
-        if (name == null) {
-            if (other.name != null)
-                return false;
-        } else if (!name.equals(other.name))
-            return false;
-        return true;
-    }
-
-    @Override
-    public String toString() {
-        final StringBuilder builder = new StringBuilder();
-        builder.append("Privilege [name=").append(name).append("]").append("[id=").append(id).append("]");
-        return builder.toString();
-    }
 }
+
+/*
+
+    This class is to store the type of privileges a role can have
+    For example, USER role can have the READ privilege or the ADMIN has the full privileges
+    To store the privilege on the database, we need the following information:
+        - id     (primary key)
+        - name   (name of privilege, such as READ, WRITE, ...)
+
+ */
