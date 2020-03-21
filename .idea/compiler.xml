@@ -10,6 +10,7 @@
         <module name="spring-boot-junit-testing" />
         <module name="spring-boot-amqp-messaging" />
         <module name="basic-authenication" />
+        <module name="todoboot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,7 @@
       <module name="spring-boot-amqp-messaging" target="1.8" />
       <module name="spring-boot-junit-testing" target="1.8" />
       <module name="springboot-exercise" target="1.8" />
+      <module name="todoboot" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -25,6 +27,7 @@
       <module name="spring-boot-amqp-messaging" options="-parameters" />
       <module name="spring-boot-junit-testing" options="-parameters" />
       <module name="springboot-exercise" options="-parameters" />
+      <module name="todoboot" options="-parameters" />
     </option>
   </component>
 </project>

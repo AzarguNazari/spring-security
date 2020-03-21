@@ -2,8 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ThymleaveTODO" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/spring-boot-amqp-messaging" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/spring-boot-junit-testing" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/spring_boot_with_rabbitmq" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/todoboot" vcs="Git" />
   </component>
 </project>
