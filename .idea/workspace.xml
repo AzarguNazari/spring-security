@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="462198c2-b647-44c4-98d7-206b94f29265" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_boot_with_rabbitmq/spring-boot-amqp-messaging.iml" afterDir="false" />
+    <list default="true" id="462198c2-b647-44c4-98d7-206b94f29265" name="Default Changelist" comment="All chang">
+      <change afterPath="$PROJECT_DIR$/spring-boot-amqp-messaging/spring-boot-amqp-messaging.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -13,9 +10,66 @@
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic-authenication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/BasicAuthenticationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/BasicAuthenticationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/controllers/registrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/controllers/registrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/dtos/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/dtos/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/persistence/dao/DeviceMetadataRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/persistence/dao/DeviceMetadataRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/persistence/dao/PasswordResetTokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/persistence/dao/PasswordResetTokenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/persistence/dao/PrivilegeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/persistence/dao/PrivilegeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/persistence/dao/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/persistence/dao/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/persistence/dao/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/persistence/dao/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/persistence/dao/VerificationTokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/persistence/dao/VerificationTokenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/persistence/model/DeviceMetadata.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/persistence/model/DeviceMetadata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/persistence/model/PasswordResetToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/persistence/model/PasswordResetToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/persistence/model/Privilege.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/persistence/model/Privilege.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/persistence/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/persistence/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/persistence/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/persistence/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/persistence/model/VerificationToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/persistence/model/VerificationToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/security/ISecurityUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/security/ISecurityUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/security/LoginAttemptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/security/LoginAttemptService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/security/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/security/MyUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/security/UserSecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/security/UserSecurityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/services/DeviceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/services/DeviceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/services/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/services/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/utils/validators/emailValidator/EmailValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/utils/validators/emailValidator/EmailValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/utils/validators/emailValidator/ValidEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/utils/validators/emailValidator/ValidEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/utils/validators/passwordValidator/PasswordMatches.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/utils/validators/passwordValidator/PasswordMatches.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/utils/validators/passwordValidator/PasswordMatchesValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/utils/validators/passwordValidator/PasswordMatchesValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/web/controller/OldRegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/web/controller/OldRegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/web/controller/RegistrationCaptchaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/web/controller/RegistrationCaptchaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/web/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/web/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/web/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/web/dto/PasswordDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/web/dto/PasswordDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/web/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/web/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/web/error/InvalidOldPasswordException.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/web/error/InvalidOldPasswordException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/web/error/ReCaptchaInvalidException.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/web/error/ReCaptchaInvalidException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/web/error/ReCaptchaUnavailableException.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/web/error/ReCaptchaUnavailableException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/web/error/RestResponseEntityExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/web/error/RestResponseEntityExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/web/error/UserAlreadyExistException.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/web/error/UserAlreadyExistException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/web/error/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/web/error/UserNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/web/util/GenericResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/web/util/GenericResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/main/java/basicauthentication/web/util/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/main/java/com/springboot/exercise/web/util/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-authenication/src/test/java/basicauthentication/BasicAuthenticationApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/src/test/java/com/springboot/exercise/BasicAuthenticationApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-exercise.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_boot_with_rabbitmq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_boot_with_rabbitmq/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-amqp-messaging/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-amqp-messaging/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-amqp-messaging/spring-boot-amqp-messaging.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-amqp-messaging/spring-boot-amqp-messaging.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/thepracticaldeveloper/rabbitmqconfig/CustomMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/thepracticaldeveloper/rabbitmqconfig/CustomMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/springboot/exercise/CustomMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/thepracticaldeveloper/rabbitmqconfig/CustomMessageListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/thepracticaldeveloper/rabbitmqconfig/CustomMessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/springboot/exercise/CustomMessageListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/thepracticaldeveloper/rabbitmqconfig/CustomMessageSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/thepracticaldeveloper/rabbitmqconfig/CustomMessageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/springboot/exercise/CustomMessageSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/thepracticaldeveloper/rabbitmqconfig/MessagingApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/thepracticaldeveloper/rabbitmqconfig/MessagingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/springboot/exercise/MessagingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com/junit/springboot/SpringBootJunitTestingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com.springboot.exercise/SpringBootJunitTestingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com/junit/springboot/controllers/EmployeeRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com.springboot.exercise/controllers/EmployeeRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com/junit/springboot/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com.springboot.exercise/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com/junit/springboot/repositories/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com.springboot.exercise/repositories/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com/junit/springboot/services/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com.springboot.exercise/services/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com/junit/springboot/services/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com.springboot.exercise/services/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-exercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-exercise.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +90,14 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-boot-junit-testing" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1ZN9oxpkFg9DhazpdwYa8YdMC6k" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -53,17 +114,58 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com.springboot.exercise" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="basicauthentication.utils.validators.passwordValidator" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.MessagingApplication">
+    <configuration name="MessagingApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-amqp-messaging" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="MessagingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessagingApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-amqp-messaging" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springbootexercise.MessagingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessagingApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-amqp-messaging" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.exercise.MessagingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MessagingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-amqp-messaging" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.thepracticaldeveloper.rabbitmqconfig.MessagingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootJunitTestingApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-junit-testing" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.exercise.SpringBootJunitTestingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootJunitTestingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-junit-testing" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.junit.springboot.SpringBootJunitTestingApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,7 +182,8 @@
       <option name="presentableId" value="Default" />
       <updated>1584669027574</updated>
       <workItem from="1584669651670" duration="12159000" />
-      <workItem from="1584804089232" duration="568000" />
+      <workItem from="1584804089232" duration="1151000" />
+      <workItem from="1584805275085" duration="1369000" />
     </task>
     <task id="LOCAL-00001" summary="additional settings of project">
       <created>1584674185411</created>
@@ -130,10 +233,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="additional settings of project" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="560" y="221" key="#Project_Structure" timestamp="1584806682811">
+      <screen x="0" y="39" width="1920" height="1041" />
+    </state>
+    <state x="560" y="221" key="#Project_Structure/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584806682811" />
     <state x="813" y="432" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584669896596">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
     <state x="813" y="432" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584669896596" />
+    <state x="494" y="478" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584805807846">
+      <screen x="0" y="39" width="1920" height="1041" />
+    </state>
+    <state x="494" y="478" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584805807846" />
     <state x="593" y="117" key="CommitChangelistDialog2" timestamp="1584804712242">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
@@ -160,5 +271,9 @@
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
     <state x="761" y="480" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584701789729" />
+    <state x="623" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1584806221251">
+      <screen x="0" y="39" width="1920" height="1041" />
+    </state>
+    <state x="623" y="268" width="672" height="678" key="search.everywhere.popup/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584806221251" />
   </component>
 </project>

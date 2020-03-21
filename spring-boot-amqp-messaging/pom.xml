@@ -9,7 +9,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<groupId>springboot-exercise</groupId>
+	<groupId>com.springboot.exercise</groupId>
 	<artifactId>spring-boot-amqp-messaging</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>

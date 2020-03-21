@@ -13,10 +13,12 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-exercise</name>
 	<description>Exercise about different parts of spring boot</description>
+	<packaging>pom</packaging>
 
 	<modules>
 		<module>basic-authenication</module>
 		<module>spring-boot-amqp-messaging</module>
+		<module>spring-boot-junit-testing</module>
 	</modules>
 
 	<properties>
@@ -52,11 +54,11 @@
 		</dependency>
 
 		<!-- AMPQ RABBIT TEST -->
-		<dependency>
-			<groupId>org.springframework.amqp</groupId>
-			<artifactId>spring-rabbit-test</artifactId>
-			<scope>test</scope>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.amqp</groupId>-->
+<!--			<artifactId>spring-rabbit-test</artifactId>-->
+<!--			<scope>test</scope>-->
+<!--		</dependency>-->
 
 		<!-- JPA -->
 		<dependency>
@@ -292,17 +294,14 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-core</artifactId>
-			<version>${jackson-core.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-annotations</artifactId>
-			<version>${jackson-annotations.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>${jackson-databind.version}</version>
 		</dependency>
 
 	</dependencies>
@@ -349,6 +348,21 @@
 				<artifactId>aerogear-otp-java</artifactId>
 				<version>${aerogear.version}</version>
 				<scope>compile</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.fasterxml.jackson.core</groupId>
+				<artifactId>jackson-core</artifactId>
+				<version>${jackson-core.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.fasterxml.jackson.core</groupId>
+				<artifactId>jackson-annotations</artifactId>
+				<version>${jackson-annotations.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.fasterxml.jackson.core</groupId>
+				<artifactId>jackson-databind</artifactId>
+				<version>${jackson-databind.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

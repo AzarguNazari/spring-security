@@ -8,7 +8,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>springboot-exercise</groupId>
+    <groupId>com.springboot.exercise</groupId>
     <artifactId>basic-authenication</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>basic-authentication</name>

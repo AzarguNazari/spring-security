@@ -7,14 +7,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-junit-testing" />
         <module name="spring-boot-amqp-messaging" />
         <module name="basic-authenication" />
-        <module name="springboot-exercise" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="basic-authenication" target="1.8" />
       <module name="spring-boot-amqp-messaging" target="1.8" />
+      <module name="spring-boot-junit-testing" target="1.8" />
       <module name="springboot-exercise" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -22,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="basic-authenication" options="-parameters" />
       <module name="spring-boot-amqp-messaging" options="-parameters" />
+      <module name="spring-boot-junit-testing" options="-parameters" />
       <module name="springboot-exercise" options="-parameters" />
     </option>
   </component>
