@@ -2,50 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="462198c2-b647-44c4-98d7-206b94f29265" name="Default Changelist" comment="All chang">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_expression_processor_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_2_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_jul_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity4_unknown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_3_3_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_font_awesome_5_0_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_3_1_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-boot-amqp-messaging/spring-boot-amqp-messaging.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/tr/com/jowl/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/com.springboot.exercise/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/tr/com/jowl/controller/GlobalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/com.springboot.exercise/controller/GlobalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/tr/com/jowl/controller/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/com.springboot.exercise/controller/TodoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/tr/com/jowl/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/com.springboot.exercise/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/tr/com/jowl/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/com.springboot.exercise/model/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/tr/com/jowl/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/com.springboot.exercise/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/tr/com/jowl/repository/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/com.springboot.exercise/repository/TaskRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/tr/com/jowl/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/com.springboot.exercise/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/tr/com/jowl/security/AuthUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/com.springboot.exercise/security/AuthUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/tr/com/jowl/security/MyAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/com.springboot.exercise/security/MyAuthenticationSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/tr/com/jowl/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/com.springboot.exercise/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/tr/com/jowl/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/com.springboot.exercise/service/TaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/tr/com/jowl/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/com.springboot.exercise/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/tr/com/jowl/service/impl/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/com.springboot.exercise/service/impl/TaskServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/tr/com/jowl/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/com.springboot.exercise/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/tr/com/jowl/utils/PassEncoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/com.springboot.exercise/utils/PassEncoding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/tr/com/jowl/utils/Roles.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/com.springboot.exercise/utils/Roles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/tr/com/jowl/utils/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/com.springboot.exercise/utils/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/tr/com/jowl/utils/TaskCategories.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/src/main/java/com.springboot.exercise/utils/TaskCategories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/src/main/resources/log4j2-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/src/main/resources/log4j2-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/src/test/java/tr/com/jowl/service/impl/TaskServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/src/test/java/com/springboot/exercise/service/impl/TaskServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/src/test/java/tr/com/jowl/service/impl/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/src/test/java/com/springboot/exercise/service/impl/UserServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThymleaveTODO/src/test/java/tr/com/jowl/utils/PassEncodingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThymleaveTODO/src/test/java/com/springboot/exercise/utils/PassEncodingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-amqp-messaging/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-amqp-messaging/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/thepracticaldeveloper/rabbitmqconfig/CustomMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/springboot/exercise/CustomMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/thepracticaldeveloper/rabbitmqconfig/CustomMessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/springboot/exercise/CustomMessageListener.java" afterDir="false" />
@@ -66,7 +25,31 @@
       <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/src/test/java/com/junit/springboot/SpringBootJunitTestingApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/src/test/java/com/springboot/exercise/SpringBootJunitTestingApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/src/test/java/com/junit/springboot/TestingWebApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/src/test/java/com/springboot/exercise/TestingWebApplicationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/src/test/java/com/junit/springboot/WebLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/src/test/java/com/springboot/exercise/WebLayerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-exercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-exercise.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/controller/GlobalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/controller/GlobalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/controller/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/controller/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/model/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/repository/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/repository/TaskRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/security/AuthUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/security/AuthUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/security/MyAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/security/MyAuthenticationSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/service/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/service/impl/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/service/impl/TaskServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/utils/PassEncoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/utils/PassEncoding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/utils/Roles.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/utils/Roles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/utils/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/utils/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/utils/TaskCategories.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/utils/TaskCategories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/src/main/resources/log4j2-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/resources/log4j2-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/src/test/java/tr/com/jowl/service/impl/TaskServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/test/java/com/springboot/exercise/service/impl/TaskServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/src/test/java/tr/com/jowl/service/impl/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/test/java/com/springboot/exercise/service/impl/UserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoboot/src/test/java/tr/com/jowl/utils/PassEncodingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/test/java/com/springboot/exercise/utils/PassEncodingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +109,13 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.MessagingApplication">
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="todoboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.exercise.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="todoboot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tr.com.jowl.Application" />
@@ -188,7 +178,7 @@
       <updated>1584669027574</updated>
       <workItem from="1584669651670" duration="12159000" />
       <workItem from="1584804089232" duration="1151000" />
-      <workItem from="1584805275085" duration="2252000" />
+      <workItem from="1584805275085" duration="3116000" />
     </task>
     <task id="LOCAL-00001" summary="additional settings of project">
       <created>1584674185411</created>
