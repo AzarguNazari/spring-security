@@ -8,11 +8,16 @@
 		<version>2.2.5.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.spring.spring-test</groupId>
-	<artifactId>spring-security</artifactId>
+	<groupId>com.springboot.exercise</groupId>
+	<artifactId>springboot-exercise</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-secuirty</name>
-	<description>Demo project for Spring Boot</description>
+	<name>springboot-exercise</name>
+	<description>Exercise about different parts of spring boot</description>
+
+	<modules>
+		<module>basic-authenication</module>
+		<module>spring-boot-amqp-messaging</module>
+	</modules>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -25,6 +30,9 @@
 		<aerogear.version>1.0.0</aerogear.version>
 		<uap-java.version>1.4.0</uap-java.version>
 		<geoip2.version>2.12.0</geoip2.version>
+		<jackson-databind.version>2.9.6</jackson-databind.version>
+		<jackson-annotations.version>2.9.6</jackson-annotations.version>
+		<jackson-core.version>2.9.6</jackson-core.version>
 	</properties>
 
 	<dependencies>
@@ -279,6 +287,22 @@
 		<dependency>
 			<groupId>net.logstash.logback</groupId>
 			<artifactId>logstash-logback-encoder</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>${jackson-core.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-annotations</artifactId>
+			<version>${jackson-annotations.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>${jackson-databind.version}</version>
 		</dependency>
 
 	</dependencies>

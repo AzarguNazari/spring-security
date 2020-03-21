@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/basic-authenication/basic-authenication.iml" filepath="$PROJECT_DIR$/basic-authenication/basic-authenication.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-security.iml" filepath="$PROJECT_DIR$/spring-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-amqp-messaging/spring-boot-amqp-messaging.iml" filepath="$PROJECT_DIR$/spring-boot-amqp-messaging/spring-boot-amqp-messaging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-exercise.iml" filepath="$PROJECT_DIR$/springboot-exercise.iml" />
     </modules>
   </component>
 </project>

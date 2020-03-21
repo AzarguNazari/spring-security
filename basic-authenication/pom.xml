@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.spring.spring-test</groupId>
-        <artifactId>spring-security</artifactId>
+        <groupId>com.springboot.exercise</groupId>
+        <artifactId>springboot-exercise</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>spring-security</groupId>
+    <groupId>springboot-exercise</groupId>
     <artifactId>basic-authenication</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>basic-authentication</name>

@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="462198c2-b647-44c4-98d7-206b94f29265" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_with_rabbitmq/spring-boot-amqp-messaging.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic-authenication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-authenication/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-exercise.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_boot_with_rabbitmq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_boot_with_rabbitmq/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +39,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZN9oxpkFg9DhazpdwYa8YdMC6k" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -48,6 +60,15 @@
       <recent name="basicauthentication.utils.validators.passwordValidator" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="MessagingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-amqp-messaging" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thepracticaldeveloper.rabbitmqconfig.MessagingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -58,7 +79,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584669027574</updated>
-      <workItem from="1584669651670" duration="10351000" />
+      <workItem from="1584669651670" duration="12159000" />
+      <workItem from="1584804089232" duration="568000" />
     </task>
     <task id="LOCAL-00001" summary="additional settings of project">
       <created>1584674185411</created>
@@ -88,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584678987395</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="additional settings of project">
+      <created>1584680076788</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584680076788</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,10 +134,11 @@
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
     <state x="813" y="432" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584669896596" />
-    <state x="593" y="117" key="CommitChangelistDialog2" timestamp="1584678987180">
+    <state x="593" y="117" key="CommitChangelistDialog2" timestamp="1584804712242">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
-    <state x="593" y="117" key="CommitChangelistDialog2/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584678987180" />
+    <state x="593" y="117" key="CommitChangelistDialog2/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584804712242" />
+    <state x="593" y="117" key="CommitChangelistDialog2/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584680076646" />
     <state x="498" y="198" key="Maven.ArtifactSearchDialog" timestamp="1584677148404">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
@@ -117,13 +147,18 @@
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
     <state x="461" y="175" key="SettingsEditor/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584669843576" />
-    <state x="560" y="276" key="Vcs.Push.Dialog.v2" timestamp="1584678993685">
+    <state x="560" y="276" key="Vcs.Push.Dialog.v2" timestamp="1584680080077">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
-    <state x="560" y="276" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584678993685" />
-    <state x="647" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1584669607183">
+    <state x="560" y="276" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584680080077" />
+    <state x="647" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1584701784643">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
+    <state x="647" y="367" key="com.intellij.ide.util.TipDialog/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584701784643" />
     <state x="647" y="367" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584669607183" />
+    <state x="761" y="480" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584701789729">
+      <screen x="0" y="39" width="1920" height="1041" />
+    </state>
+    <state x="761" y="480" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584701789729" />
   </component>
 </project>
