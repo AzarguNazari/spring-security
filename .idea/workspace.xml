@@ -1,52 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="462198c2-b647-44c4-98d7-206b94f29265" name="Default Changelist" comment="add spring boot admin server">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_2_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_cloud_2_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_ui_2_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_starter_server_2_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-admin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-admin/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-admin/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-admin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-admin/spring-boot-admin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-admin/src/main/java/com/springboot/exercise/sba/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-admin/src/main/java/com/springboot/exercise/sba/SecuritySecureConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-admin/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="462198c2-b647-44c4-98d7-206b94f29265" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/controller/GlobalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/controller/GlobalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/controller/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/controller/TodoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/model/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/repository/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/repository/TaskRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/security/AuthUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/security/AuthUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/security/MyAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/security/MyAuthenticationSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/service/TaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/service/impl/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/service/impl/TaskServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/utils/PassEncoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/utils/PassEncoding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/utils/Roles.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/utils/Roles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/utils/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/utils/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/utils/TaskCategories.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/utils/TaskCategories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/src/main/resources/log4j2-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/resources/log4j2-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/src/test/java/tr/com/jowl/service/impl/TaskServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/test/java/com/springboot/exercise/service/impl/TaskServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/src/test/java/tr/com/jowl/service/impl/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/test/java/com/springboot/exercise/service/impl/UserServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoboot/src/test/java/tr/com/jowl/utils/PassEncodingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/test/java/com/springboot/exercise/utils/PassEncodingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-admin/src/main/java/com/springboot/exercise/sba/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-admin/src/main/java/com/springboot/exercise/springbootadmin/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-admin/src/main/java/com/springboot/exercise/sba/SecuritySecureConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-admin/src/main/java/com/springboot/exercise/springbootadmin/SecuritySecureConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +66,14 @@
       <recent name="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com.springboot.exercise" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.spring  boot admin">
+    <configuration name="spring  boot admin" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.springboot.exercise.springbootadmin.MainApplication" />
+      <module name="spring-boot-admin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="todoboot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.exercise.Application" />
@@ -165,6 +130,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.spring  boot admin" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -215,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584680076788</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add spring boot admin server">
+      <created>1584917969633</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584917969633</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +209,14 @@
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
     <state x="560" y="221" key="#Project_Structure/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584806682811" />
+    <state x="424" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584918155227">
+      <screen x="0" y="39" width="1920" height="1041" />
+    </state>
+    <state x="424" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584918155227" />
+    <state x="697" y="346" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584918033854">
+      <screen x="0" y="39" width="1920" height="1041" />
+    </state>
+    <state x="697" y="346" key="#com.intellij.ide.util.TreeClassChooserDialog/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584918033854" />
     <state x="813" y="432" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584669896596">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
@@ -242,10 +225,10 @@
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
     <state x="494" y="478" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584805807846" />
-    <state x="593" y="117" key="CommitChangelistDialog2" timestamp="1584917936538">
+    <state x="593" y="117" key="CommitChangelistDialog2" timestamp="1584918140703">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
-    <state x="593" y="117" key="CommitChangelistDialog2/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584917936538" />
+    <state x="593" y="117" key="CommitChangelistDialog2/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584918140703" />
     <state x="2513" y="81" key="CommitChangelistDialog2/0.39.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584808669342" />
     <state x="593" y="117" key="CommitChangelistDialog2/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584680076646" />
     <state x="498" y="198" key="Maven.ArtifactSearchDialog" timestamp="1584677148404">
@@ -257,10 +240,10 @@
     </state>
     <state x="461" y="175" key="SettingsEditor/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584917955676" />
     <state x="461" y="175" key="SettingsEditor/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584669843576" />
-    <state x="560" y="276" key="Vcs.Push.Dialog.v2" timestamp="1584917946453">
+    <state x="560" y="276" key="Vcs.Push.Dialog.v2" timestamp="1584918143968">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
-    <state x="560" y="276" key="Vcs.Push.Dialog.v2/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584917946453" />
+    <state x="560" y="276" key="Vcs.Push.Dialog.v2/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584918143968" />
     <state x="560" y="276" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584680080077" />
     <state x="647" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1584701784643">
       <screen x="0" y="39" width="1920" height="1041" />
