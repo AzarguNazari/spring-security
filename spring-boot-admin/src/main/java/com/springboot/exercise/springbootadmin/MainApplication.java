@@ -1,4 +1,4 @@
-package com.springboot.exercise.sba;
+package com.springboot.exercise.springbootadmin;
 
 import de.codecentric.boot.admin.server.config.EnableAdminServer;
 import org.springframework.boot.SpringApplication;
