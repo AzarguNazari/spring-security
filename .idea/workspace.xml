@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="462198c2-b647-44c4-98d7-206b94f29265" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/documentation/document.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-admin/src/main/java/com/springboot/exercise/sba/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-admin/src/main/java/com/springboot/exercise/springbootadmin/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-admin/src/main/java/com/springboot/exercise/sba/SecuritySecureConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-admin/src/main/java/com/springboot/exercise/springbootadmin/SecuritySecureConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +189,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584917969633</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add spring boot admin server">
+      <created>1584918140943</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584918140943</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add launcher">
+      <created>1584918163214</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584918163214</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +215,8 @@
     <MESSAGE value="additional settings of project" />
     <MESSAGE value="new changes" />
     <MESSAGE value="add spring boot admin server" />
-    <option name="LAST_COMMIT_MESSAGE" value="add spring boot admin server" />
+    <MESSAGE value="add launcher" />
+    <option name="LAST_COMMIT_MESSAGE" value="add launcher" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="221" key="#Project_Structure" timestamp="1584806682811">
@@ -225,10 +239,10 @@
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
     <state x="494" y="478" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584805807846" />
-    <state x="593" y="117" key="CommitChangelistDialog2" timestamp="1584918140703">
+    <state x="593" y="117" key="CommitChangelistDialog2" timestamp="1584918163098">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
-    <state x="593" y="117" key="CommitChangelistDialog2/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584918140703" />
+    <state x="593" y="117" key="CommitChangelistDialog2/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584918163098" />
     <state x="2513" y="81" key="CommitChangelistDialog2/0.39.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584808669342" />
     <state x="593" y="117" key="CommitChangelistDialog2/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584680076646" />
     <state x="498" y="198" key="Maven.ArtifactSearchDialog" timestamp="1584677148404">
@@ -240,10 +254,10 @@
     </state>
     <state x="461" y="175" key="SettingsEditor/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584917955676" />
     <state x="461" y="175" key="SettingsEditor/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584669843576" />
-    <state x="560" y="276" key="Vcs.Push.Dialog.v2" timestamp="1584918143968">
+    <state x="560" y="276" key="Vcs.Push.Dialog.v2" timestamp="1584918259249">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
-    <state x="560" y="276" key="Vcs.Push.Dialog.v2/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584918143968" />
+    <state x="560" y="276" key="Vcs.Push.Dialog.v2/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584918259249" />
     <state x="560" y="276" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584680080077" />
     <state x="647" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1584701784643">
       <screen x="0" y="39" width="1920" height="1041" />
