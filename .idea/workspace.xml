@@ -1,30 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="462198c2-b647-44c4-98d7-206b94f29265" name="Default Changelist" comment="All chang">
-      <change afterPath="$PROJECT_DIR$/spring-boot-amqp-messaging/spring-boot-amqp-messaging.iml" afterDir="false" />
+    <list default="true" id="462198c2-b647-44c4-98d7-206b94f29265" name="Default Changelist" comment="add spring boot admin server">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_cloud_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_ui_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_starter_server_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-admin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-admin/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-admin/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-admin/spring-boot-admin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-admin/src/main/java/com/springboot/exercise/sba/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-admin/src/main/java/com/springboot/exercise/sba/SecuritySecureConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-admin/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-amqp-messaging/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-amqp-messaging/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/thepracticaldeveloper/rabbitmqconfig/CustomMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/springboot/exercise/CustomMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/thepracticaldeveloper/rabbitmqconfig/CustomMessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/springboot/exercise/CustomMessageListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/thepracticaldeveloper/rabbitmqconfig/CustomMessageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/springboot/exercise/CustomMessageSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/thepracticaldeveloper/rabbitmqconfig/MessagingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-amqp-messaging/src/main/java/com/springboot/exercise/MessagingApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com/junit/springboot/SpringBootJunitTestingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com.springboot.exercise/SpringBootJunitTestingApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com/junit/springboot/controllers/EmployeeRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com.springboot.exercise/controllers/EmployeeRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com/junit/springboot/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com.springboot.exercise/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com/junit/springboot/repositories/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com.springboot.exercise/repositories/EmployeeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com/junit/springboot/services/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com.springboot.exercise/services/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com/junit/springboot/services/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com.springboot.exercise/services/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/src/test/java/com/junit/springboot/EmployeeRepositoryIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/src/test/java/com/springboot/exercise/EmployeeRepositoryIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/src/test/java/com/junit/springboot/EmployeeRestControllerIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/src/test/java/com/springboot/exercise/EmployeeRestControllerIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/src/test/java/com/junit/springboot/EmployeeServiceImplIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/src/test/java/com/springboot/exercise/EmployeeServiceImplIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/src/test/java/com/junit/springboot/MvcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/src/test/java/com/springboot/exercise/MvcTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/src/test/java/com/junit/springboot/SpringBootJunitTestingApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/src/test/java/com/springboot/exercise/SpringBootJunitTestingApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/src/test/java/com/junit/springboot/TestingWebApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/src/test/java/com/springboot/exercise/TestingWebApplicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-junit-testing/src/test/java/com/junit/springboot/WebLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-junit-testing/src/test/java/com/springboot/exercise/WebLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todoboot/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todoboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todoboot/src/main/java/tr/com/jowl/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/todoboot/src/main/java/com.springboot.exercise/Application.java" afterDir="false" />
@@ -97,18 +94,21 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="basicauthentication.utils.validators.passwordValidator" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ThymleaveTODO/src/main/java/com.springboot.exercise" />
       <recent name="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com.springboot.exercise" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="basicauthentication.utils.validators.passwordValidator" />
-    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.MessagingApplication">
+  <component name="RunManager">
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="todoboot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.exercise.Application" />
@@ -178,7 +178,7 @@
       <updated>1584669027574</updated>
       <workItem from="1584669651670" duration="12159000" />
       <workItem from="1584804089232" duration="1151000" />
-      <workItem from="1584805275085" duration="3116000" />
+      <workItem from="1584805275085" duration="3232000" />
     </task>
     <task id="LOCAL-00001" summary="additional settings of project">
       <created>1584674185411</created>
@@ -225,7 +225,9 @@
     <MESSAGE value="add read me" />
     <MESSAGE value="add info about entities" />
     <MESSAGE value="additional settings of project" />
-    <option name="LAST_COMMIT_MESSAGE" value="additional settings of project" />
+    <MESSAGE value="new changes" />
+    <MESSAGE value="add spring boot admin server" />
+    <option name="LAST_COMMIT_MESSAGE" value="add spring boot admin server" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="221" key="#Project_Structure" timestamp="1584806682811">
@@ -240,22 +242,25 @@
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
     <state x="494" y="478" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584805807846" />
-    <state x="593" y="117" key="CommitChangelistDialog2" timestamp="1584804712242">
+    <state x="593" y="117" key="CommitChangelistDialog2" timestamp="1584917936538">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
-    <state x="593" y="117" key="CommitChangelistDialog2/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584804712242" />
+    <state x="593" y="117" key="CommitChangelistDialog2/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584917936538" />
+    <state x="2513" y="81" key="CommitChangelistDialog2/0.39.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584808669342" />
     <state x="593" y="117" key="CommitChangelistDialog2/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584680076646" />
     <state x="498" y="198" key="Maven.ArtifactSearchDialog" timestamp="1584677148404">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
     <state x="498" y="198" key="Maven.ArtifactSearchDialog/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584677148404" />
-    <state x="461" y="175" key="SettingsEditor" timestamp="1584669843576">
+    <state x="461" y="175" key="SettingsEditor" timestamp="1584917955676">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
+    <state x="461" y="175" key="SettingsEditor/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584917955676" />
     <state x="461" y="175" key="SettingsEditor/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584669843576" />
-    <state x="560" y="276" key="Vcs.Push.Dialog.v2" timestamp="1584680080077">
+    <state x="560" y="276" key="Vcs.Push.Dialog.v2" timestamp="1584917946453">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
+    <state x="560" y="276" key="Vcs.Push.Dialog.v2/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584917946453" />
     <state x="560" y="276" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584680080077" />
     <state x="647" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1584701784643">
       <screen x="0" y="39" width="1920" height="1041" />
@@ -270,6 +275,10 @@
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
     <state x="626" y="298" width="668" height="522" key="find.popup/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584807469138" />
+    <state x="428" y="263" key="new project wizard" timestamp="1584917606004">
+      <screen x="0" y="39" width="1920" height="1041" />
+    </state>
+    <state x="428" y="263" key="new project wizard/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584917606004" />
     <state x="623" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1584807285492">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>

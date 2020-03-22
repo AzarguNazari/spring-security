@@ -20,6 +20,7 @@
 		<module>spring-boot-amqp-messaging</module>
 		<module>spring-boot-junit-testing</module>
 		<module>todoboot</module>
+		<module>spring-boot-admin</module>
 	</modules>
 
 	<properties>
