@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="462198c2-b647-44c4-98d7-206b94f29265" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/documentation/document.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_cloud_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_ui_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_starter_server_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_3_2_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-admin/spring-boot-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-admin/spring-boot-admin.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +60,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="basicauthentication.utils.validators.passwordValidator" />
@@ -69,6 +79,7 @@
     <configuration name="spring  boot admin" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.springboot.exercise.springbootadmin.MainApplication" />
       <module name="spring-boot-admin" />
+      <option name="VM_PARAMETERS" value="-Dspring.security.user.password=admin -Dspring.security.user.name=admin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,6 +94,13 @@
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="todoboot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tr.com.jowl.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.exercise.springbootadmin.MainApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,6 +149,15 @@
     </configuration>
     <list>
       <item itemvalue="Application.spring  boot admin" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.Application (1)" />
+      <item itemvalue="Spring Boot.MessagingApplication" />
+      <item itemvalue="Spring Boot.MessagingApplication (1)" />
+      <item itemvalue="Spring Boot.MessagingApplication (2)" />
+      <item itemvalue="Spring Boot.MessagingApplication (3)" />
+      <item itemvalue="Spring Boot.SpringBootJunitTestingApplication" />
+      <item itemvalue="Spring Boot.SpringBootJunitTestingApplication (1)" />
+      <item itemvalue="Spring Boot.MainApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -146,6 +173,7 @@
       <workItem from="1584669651670" duration="12159000" />
       <workItem from="1584804089232" duration="1151000" />
       <workItem from="1584805275085" duration="3232000" />
+      <workItem from="1584994018838" duration="1370000" />
     </task>
     <task id="LOCAL-00001" summary="additional settings of project">
       <created>1584674185411</created>
@@ -203,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584918163214</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add documentation">
+      <created>1584918358483</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584918358483</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,17 +251,18 @@
     <MESSAGE value="new changes" />
     <MESSAGE value="add spring boot admin server" />
     <MESSAGE value="add launcher" />
-    <option name="LAST_COMMIT_MESSAGE" value="add launcher" />
+    <MESSAGE value="add documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add documentation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="221" key="#Project_Structure" timestamp="1584806682811">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
     <state x="560" y="221" key="#Project_Structure/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584806682811" />
-    <state x="424" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584918155227">
+    <state x="424" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584995224519">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
-    <state x="424" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584918155227" />
+    <state x="424" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584995224519" />
     <state x="697" y="346" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584918033854">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
@@ -239,30 +275,67 @@
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
     <state x="494" y="478" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584805807846" />
-    <state x="593" y="117" key="CommitChangelistDialog2" timestamp="1584918163098">
+    <state x="593" y="117" key="CommitChangelistDialog2" timestamp="1584995770593">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
-    <state x="593" y="117" key="CommitChangelistDialog2/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584918163098" />
+    <state x="593" y="117" key="CommitChangelistDialog2/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584995770593" />
     <state x="2513" y="81" key="CommitChangelistDialog2/0.39.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584808669342" />
     <state x="593" y="117" key="CommitChangelistDialog2/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584680076646" />
+    <state width="1874" height="697" key="GridCell.Tab.0.bottom" timestamp="1584995756353">
+      <screen x="0" y="39" width="1920" height="1041" />
+    </state>
+    <state width="1874" height="697" key="GridCell.Tab.0.bottom/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584995756353" />
+    <state width="1874" height="697" key="GridCell.Tab.0.center" timestamp="1584995756352">
+      <screen x="0" y="39" width="1920" height="1041" />
+    </state>
+    <state width="1874" height="697" key="GridCell.Tab.0.center/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584995756352" />
+    <state width="1874" height="697" key="GridCell.Tab.0.left" timestamp="1584995756352">
+      <screen x="0" y="39" width="1920" height="1041" />
+    </state>
+    <state width="1874" height="697" key="GridCell.Tab.0.left/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584995756352" />
+    <state width="1874" height="697" key="GridCell.Tab.0.right" timestamp="1584995756352">
+      <screen x="0" y="39" width="1920" height="1041" />
+    </state>
+    <state width="1874" height="697" key="GridCell.Tab.0.right/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584995756352" />
+    <state width="1874" height="697" key="GridCell.Tab.1.bottom" timestamp="1584995756353">
+      <screen x="0" y="39" width="1920" height="1041" />
+    </state>
+    <state width="1874" height="697" key="GridCell.Tab.1.bottom/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584995756353" />
+    <state width="1874" height="697" key="GridCell.Tab.1.center" timestamp="1584995756353">
+      <screen x="0" y="39" width="1920" height="1041" />
+    </state>
+    <state width="1874" height="697" key="GridCell.Tab.1.center/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584995756353" />
+    <state width="1874" height="697" key="GridCell.Tab.1.left" timestamp="1584995756353">
+      <screen x="0" y="39" width="1920" height="1041" />
+    </state>
+    <state width="1874" height="697" key="GridCell.Tab.1.left/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584995756353" />
+    <state width="1874" height="697" key="GridCell.Tab.1.right" timestamp="1584995756353">
+      <screen x="0" y="39" width="1920" height="1041" />
+    </state>
+    <state width="1874" height="697" key="GridCell.Tab.1.right/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584995756353" />
     <state x="498" y="198" key="Maven.ArtifactSearchDialog" timestamp="1584677148404">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
     <state x="498" y="198" key="Maven.ArtifactSearchDialog/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584677148404" />
+    <state x="622" y="253" key="RollbackChangesDialog" timestamp="1584995683951">
+      <screen x="0" y="39" width="1920" height="1041" />
+    </state>
+    <state x="622" y="253" key="RollbackChangesDialog/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584995683951" />
     <state x="461" y="175" key="SettingsEditor" timestamp="1584917955676">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
     <state x="461" y="175" key="SettingsEditor/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584917955676" />
     <state x="461" y="175" key="SettingsEditor/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584669843576" />
-    <state x="560" y="276" key="Vcs.Push.Dialog.v2" timestamp="1584918259249">
+    <state x="560" y="276" key="Vcs.Push.Dialog.v2" timestamp="1584918370763">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
-    <state x="560" y="276" key="Vcs.Push.Dialog.v2/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584918259249" />
+    <state x="560" y="276" key="Vcs.Push.Dialog.v2/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584918370763" />
     <state x="560" y="276" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584680080077" />
-    <state x="647" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1584701784643">
-      <screen x="0" y="39" width="1920" height="1041" />
+    <state x="2567" y="340" key="com.intellij.ide.util.TipDialog" timestamp="1584994066199">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="647" y="367" key="com.intellij.ide.util.TipDialog/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584701784643" />
+    <state x="2567" y="340" key="com.intellij.ide.util.TipDialog/0.39.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584994066199" />
     <state x="647" y="367" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584669607183" />
     <state x="761" y="480" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584701789729">
       <screen x="0" y="39" width="1920" height="1041" />
