@@ -17,7 +17,7 @@
     <bytecodeTargetLevel>
       <module name="basic-authenication" target="1.8" />
       <module name="spring-boot-admin" target="1.8" />
-      <module name="spring-boot-amqp-messaging" target="1.8" />
+      <module name="spring-boot-amqp-messaging" target="8" />
       <module name="spring-boot-junit-testing" target="1.8" />
       <module name="springboot-exercise" target="1.8" />
       <module name="todoboot" target="1.8" />
