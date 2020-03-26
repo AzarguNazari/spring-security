@@ -25,6 +25,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBoot_Reactive_Reactor-Client" options="-parameters" />
       <module name="basic-authenication" options="-parameters" />
       <module name="rabbitMQStream" options="-parameters" />
       <module name="redis" options="-parameters" />

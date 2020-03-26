@@ -24,6 +24,7 @@
 		<module>rabbitMQStream</module>
 		<module>redis</module>
 		<module>websocket-chat-application</module>
+		<module>reactive_springboot</module>
 	</modules>
 
 	<properties>

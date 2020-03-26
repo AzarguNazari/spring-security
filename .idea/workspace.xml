@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="462198c2-b647-44c4-98d7-206b94f29265" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/reactive_springboot/Reactive_Client/SpringBoot_Reactive_Reactor-Client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactive_springboot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive_springboot/Reactive_Client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reactive_springboot/Reactive_Client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive_springboot/Reactive_Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reactive_springboot/Reactive_Service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis" beforeDir="false" afterPath="$PROJECT_DIR$/redis" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis/src/main/java/guru/springframework/SpringBootRedisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/om/springboot/redis/SpringBootRedisApplication.java" afterDir="false" />
@@ -18,7 +25,14 @@
       <change beforePath="$PROJECT_DIR$/redis/src/main/java/guru/springframework/services/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/om/springboot/redis/services/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis/src/test/java/guru/springframework/SpringBootMySqlApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/test/java/om/springboot/redis/SpringBootMySqlApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis/src/test/java/guru/springframework/repositories/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/test/java/om/springboot/redis/repositories/ProductRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket-chat-application" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-chat-application" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/websocket-chat-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-chat-application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket-chat-application/src/main/java/com/example/websocketdemo/WebsocketDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-chat-application/src/main/java/com/springboot/websocket/WebsocketDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket-chat-application/src/main/java/com/example/websocketdemo/config/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-chat-application/src/main/java/com/springboot/websocket/config/WebSocketConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket-chat-application/src/main/java/com/example/websocketdemo/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-chat-application/src/main/java/com/springboot/websocket/controller/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket-chat-application/src/main/java/com/example/websocketdemo/controller/WebSocketEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-chat-application/src/main/java/com/springboot/websocket/controller/WebSocketEventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket-chat-application/src/main/java/com/example/websocketdemo/model/ChatMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-chat-application/src/main/java/com/springboot/websocket/model/ChatMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket-chat-application/src/test/java/com/example/websocketdemo/WebsocketDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-chat-application/src/test/java/com/springboot/websocket/WebsocketDemoApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +53,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/websocket-chat-application" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/reactive_springboot" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -66,7 +80,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/reactive_springboot" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -76,15 +90,16 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="basicauthentication.utils.validators.passwordValidator" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ThymleaveTODO/src/main/java/com.springboot.exercise" />
       <recent name="$PROJECT_DIR$/spring-boot-junit-testing/src/main/java/com.springboot.exercise" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/reactive_springboot" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="basicauthentication.utils.validators.passwordValidator" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Todo Application">

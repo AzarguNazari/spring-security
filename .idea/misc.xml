@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/spring_boot_with_rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-junit-testing/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/reactive_springboot/Reactive_Client/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
