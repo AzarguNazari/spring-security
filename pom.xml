@@ -23,6 +23,7 @@
 		<module>spring-boot-admin</module>
 		<module>rabbitMQStream</module>
 		<module>redis</module>
+		<module>websocket-chat-application</module>
 	</modules>
 
 	<properties>

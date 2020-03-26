@@ -35,6 +35,7 @@
       <module name="spring-cloud-stream-rabbitmq-subscriber" options="-parameters" />
       <module name="springboot-exercise" options="-parameters" />
       <module name="todoboot" options="-parameters" />
+      <module name="websocket-chat-application" options="-parameters" />
     </option>
   </component>
 </project>

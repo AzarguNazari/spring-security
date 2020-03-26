@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="462198c2-b647-44c4-98d7-206b94f29265" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_redis_1_4_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis" beforeDir="false" afterPath="$PROJECT_DIR$/redis" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis/src/main/java/guru/springframework/SpringBootRedisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/om/springboot/redis/SpringBootRedisApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis/src/main/java/guru/springframework/commands/ProductForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/om/springboot/redis/commands/ProductForm.java" afterDir="false" />
@@ -26,6 +18,7 @@
       <change beforePath="$PROJECT_DIR$/redis/src/main/java/guru/springframework/services/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/om/springboot/redis/services/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis/src/test/java/guru/springframework/SpringBootMySqlApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/test/java/om/springboot/redis/SpringBootMySqlApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis/src/test/java/guru/springframework/repositories/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/test/java/om/springboot/redis/repositories/ProductRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket-chat-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-chat-application/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +39,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/redis" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/websocket-chat-application" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">

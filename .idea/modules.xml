@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/rabbitMQStream/spring-cloud-stream-rabbitmq-subscriber/spring-cloud-stream-rabbitmq-subscriber.iml" filepath="$PROJECT_DIR$/rabbitMQStream/spring-cloud-stream-rabbitmq-subscriber/spring-cloud-stream-rabbitmq-subscriber.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-exercise.iml" filepath="$PROJECT_DIR$/springboot-exercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/todoboot/todoboot.iml" filepath="$PROJECT_DIR$/todoboot/todoboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websocket-chat-application/websocket-chat-application.iml" filepath="$PROJECT_DIR$/websocket-chat-application/websocket-chat-application.iml" />
     </modules>
   </component>
 </project>
