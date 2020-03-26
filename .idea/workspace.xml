@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="462198c2-b647-44c4-98d7-206b94f29265" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/reactive_springboot/Reactive_Client/SpringBoot_Reactive_Reactor-Client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactive_springboot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactive_springboot/Reactive_Client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reactive_springboot/Reactive_Client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactive_springboot/Reactive_Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reactive_springboot/Reactive_Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis" beforeDir="false" afterPath="$PROJECT_DIR$/redis" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/guru/springframework/SpringBootRedisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/om/springboot/redis/SpringBootRedisApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/guru/springframework/commands/ProductForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/om/springboot/redis/commands/ProductForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/guru/springframework/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/om/springboot/redis/controllers/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/guru/springframework/converters/ProductFormToProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/om/springboot/redis/converters/ProductFormToProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/guru/springframework/converters/ProductToProductForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/om/springboot/redis/converters/ProductToProductForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/guru/springframework/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/om/springboot/redis/domain/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/guru/springframework/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/om/springboot/redis/repositories/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/guru/springframework/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/om/springboot/redis/services/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/guru/springframework/services/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/om/springboot/redis/services/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/test/java/guru/springframework/SpringBootMySqlApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/test/java/om/springboot/redis/SpringBootMySqlApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/test/java/guru/springframework/repositories/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/test/java/om/springboot/redis/repositories/ProductRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websocket-chat-application" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-chat-application" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websocket-chat-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-chat-application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websocket-chat-application/src/main/java/com/example/websocketdemo/WebsocketDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-chat-application/src/main/java/com/springboot/websocket/WebsocketDemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websocket-chat-application/src/main/java/com/example/websocketdemo/config/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-chat-application/src/main/java/com/springboot/websocket/config/WebSocketConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websocket-chat-application/src/main/java/com/example/websocketdemo/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-chat-application/src/main/java/com/springboot/websocket/controller/ChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websocket-chat-application/src/main/java/com/example/websocketdemo/controller/WebSocketEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-chat-application/src/main/java/com/springboot/websocket/controller/WebSocketEventListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websocket-chat-application/src/main/java/com/example/websocketdemo/model/ChatMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-chat-application/src/main/java/com/springboot/websocket/model/ChatMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websocket-chat-application/src/test/java/com/example/websocketdemo/WebsocketDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-chat-application/src/test/java/com/springboot/websocket/WebsocketDemoApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +23,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/reactive_springboot" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -317,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584997495549</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="reactive way of spring boot">
+      <created>1585262450843</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1585262450843</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +319,8 @@
     <MESSAGE value="rabbitmq indepdently works" />
     <MESSAGE value="launcher for rabbitmq" />
     <MESSAGE value="rabbitmq works fine" />
-    <option name="LAST_COMMIT_MESSAGE" value="rabbitmq works fine" />
+    <MESSAGE value="reactive way of spring boot" />
+    <option name="LAST_COMMIT_MESSAGE" value="reactive way of spring boot" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="221" key="#Project_Structure" timestamp="1584806682811">
@@ -359,10 +343,10 @@
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
     <state x="494" y="478" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584805807846" />
-    <state x="407" y="117" key="CommitChangelistDialog2" timestamp="1584997720950">
+    <state x="407" y="117" key="CommitChangelistDialog2" timestamp="1585262450290">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
-    <state x="407" y="117" key="CommitChangelistDialog2/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584997720950" />
+    <state x="407" y="117" key="CommitChangelistDialog2/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1585262450290" />
     <state x="2513" y="81" key="CommitChangelistDialog2/0.39.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584808669342" />
     <state x="593" y="117" key="CommitChangelistDialog2/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584680076646" />
     <state x="100" y="139" width="1720" height="841" key="DiffContextDialog" timestamp="1584997566726">
@@ -430,10 +414,10 @@
     </state>
     <state x="461" y="175" key="SettingsEditor/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1585260764353" />
     <state x="461" y="175" key="SettingsEditor/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584669843576" />
-    <state x="560" y="276" key="Vcs.Push.Dialog.v2" timestamp="1584997754245">
+    <state x="560" y="276" key="Vcs.Push.Dialog.v2" timestamp="1585262518604">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
-    <state x="560" y="276" key="Vcs.Push.Dialog.v2/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1584997754245" />
+    <state x="560" y="276" key="Vcs.Push.Dialog.v2/0.39.1920.1041/1920.0.1920.1080@0.39.1920.1041" timestamp="1585262518604" />
     <state x="560" y="276" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.39.1920.1041@0.39.1920.1041" timestamp="1584680080077" />
     <state x="2567" y="340" key="com.intellij.ide.util.TipDialog" timestamp="1584994066199">
       <screen x="1920" y="0" width="1920" height="1080" />

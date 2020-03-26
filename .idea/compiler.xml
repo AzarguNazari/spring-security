@@ -19,7 +19,7 @@
       <module name="spring-boot-admin" target="1.8" />
       <module name="spring-boot-amqp-messaging" target="8" />
       <module name="spring-boot-junit-testing" target="1.8" />
-      <module name="springboot-exercise" target="1.8" />
+      <module name="spring-security" target="1.8" />
       <module name="todoboot" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -36,7 +36,7 @@
       <module name="spring-boot-junit-testing" options="-parameters" />
       <module name="spring-cloud-stream-rabbitmq-publisher" options="-parameters" />
       <module name="spring-cloud-stream-rabbitmq-subscriber" options="-parameters" />
-      <module name="springboot-exercise" options="-parameters" />
+      <module name="spring-security" options="-parameters" />
       <module name="todoboot" options="-parameters" />
       <module name="websocket-chat-application" options="-parameters" />
     </option>
