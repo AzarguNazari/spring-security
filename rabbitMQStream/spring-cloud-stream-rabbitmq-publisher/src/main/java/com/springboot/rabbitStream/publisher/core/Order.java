@@ -1,4 +1,4 @@
-package com.springbootdev.springcloud.stream.examples.core;
+package com.springboot.rabbitStream.publisher.core;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;

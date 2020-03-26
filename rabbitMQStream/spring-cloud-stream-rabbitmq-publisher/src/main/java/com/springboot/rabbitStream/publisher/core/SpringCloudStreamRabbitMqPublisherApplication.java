@@ -1,4 +1,4 @@
-package com.springbootdev.springcloud.stream.examples.core;
+package com.springboot.rabbitStream.publisher.core;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

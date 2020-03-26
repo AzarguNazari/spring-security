@@ -1,4 +1,4 @@
-package com.springbootdev.springcloud.stream.examples.core;
+package com.springboot.rabbitStream.publisher.core;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
