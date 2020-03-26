@@ -26,9 +26,12 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="basic-authenication" options="-parameters" />
+      <module name="rabbitMQStream" options="-parameters" />
       <module name="spring-boot-admin" options="-parameters" />
       <module name="spring-boot-amqp-messaging" options="-parameters" />
       <module name="spring-boot-junit-testing" options="-parameters" />
+      <module name="spring-cloud-stream-rabbitmq-publisher" options="-parameters" />
+      <module name="spring-cloud-stream-rabbitmq-subscriber" options="-parameters" />
       <module name="springboot-exercise" options="-parameters" />
       <module name="todoboot" options="-parameters" />
     </option>

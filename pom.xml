@@ -21,6 +21,7 @@
 		<module>spring-boot-amqp-messaging</module>
 		<module>todoboot</module>
 		<module>spring-boot-admin</module>
+		<module>rabbitMQStream</module>
 	</modules>
 
 	<properties>
