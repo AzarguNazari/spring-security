@@ -22,6 +22,7 @@
 		<module>todoboot</module>
 		<module>spring-boot-admin</module>
 		<module>rabbitMQStream</module>
+		<module>redis</module>
 	</modules>
 
 	<properties>
