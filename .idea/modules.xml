@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/reactive_springboot/Reactive_Service/SpringBoot_Reactive_Reactor.iml" filepath="$PROJECT_DIR$/reactive_springboot/Reactive_Service/SpringBoot_Reactive_Reactor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/reactive_springboot/Reactive_Client/SpringBoot_Reactive_Reactor-Client.iml" filepath="$PROJECT_DIR$/reactive_springboot/Reactive_Client/SpringBoot_Reactive_Reactor-Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reactive_springboot/Reactive_Client/Reactive_Client.iml" filepath="$PROJECT_DIR$/reactive_springboot/Reactive_Client/Reactive_Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reactive_springboot/Reactive_Service/Reactive_Service.iml" filepath="$PROJECT_DIR$/reactive_springboot/Reactive_Service/Reactive_Service.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-authenication/basic-authenication.iml" filepath="$PROJECT_DIR$/basic-authenication/basic-authenication.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitMQStream/rabbitMQStream.iml" filepath="$PROJECT_DIR$/rabbitMQStream/rabbitMQStream.iml" />
       <module fileurl="file://$PROJECT_DIR$/reactive_springboot/reactive_springboot.iml" filepath="$PROJECT_DIR$/reactive_springboot/reactive_springboot.iml" />
