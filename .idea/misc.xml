@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/basic-authenication/pom.xml" />
         <option value="$PROJECT_DIR$/spring_boot_with_rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-junit-testing/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-admin/pom.xml" />
         <option value="$PROJECT_DIR$/reactive_springboot/Reactive_Client/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/basic-authenication/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitMQStream/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-amqp-messaging/pom.xml" />
+        <option value="$PROJECT_DIR$/todoboot/pom.xml" />
       </set>
     </option>
   </component>
