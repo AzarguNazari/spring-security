@@ -4,17 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/reactive_springboot/Reactive_Client/Reactive_Client.iml" filepath="$PROJECT_DIR$/reactive_springboot/Reactive_Client/Reactive_Client.iml" />
       <module fileurl="file://$PROJECT_DIR$/reactive_springboot/Reactive_Service/Reactive_Service.iml" filepath="$PROJECT_DIR$/reactive_springboot/Reactive_Service/Reactive_Service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/basic-authenication/basic-authenication.iml" filepath="$PROJECT_DIR$/basic-authenication/basic-authenication.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rabbitMQStream/rabbitMQStream.iml" filepath="$PROJECT_DIR$/rabbitMQStream/rabbitMQStream.iml" />
       <module fileurl="file://$PROJECT_DIR$/reactive_springboot/reactive_springboot.iml" filepath="$PROJECT_DIR$/reactive_springboot/reactive_springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-admin/spring-boot-admin.iml" filepath="$PROJECT_DIR$/spring-boot-admin/spring-boot-admin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-amqp-messaging/spring-boot-amqp-messaging.iml" filepath="$PROJECT_DIR$/spring-boot-amqp-messaging/spring-boot-amqp-messaging.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-junit-testing/spring-boot-junit-testing.iml" filepath="$PROJECT_DIR$/spring-boot-junit-testing/spring-boot-junit-testing.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitMQStream/spring-cloud-stream-rabbitmq-publisher/spring-cloud-stream-rabbitmq-publisher.iml" filepath="$PROJECT_DIR$/rabbitMQStream/spring-cloud-stream-rabbitmq-publisher/spring-cloud-stream-rabbitmq-publisher.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitMQStream/spring-cloud-stream-rabbitmq-subscriber/spring-cloud-stream-rabbitmq-subscriber.iml" filepath="$PROJECT_DIR$/rabbitMQStream/spring-cloud-stream-rabbitmq-subscriber/spring-cloud-stream-rabbitmq-subscriber.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security.iml" filepath="$PROJECT_DIR$/spring-security.iml" />
-      <module fileurl="file://$PROJECT_DIR$/todoboot/todoboot.iml" filepath="$PROJECT_DIR$/todoboot/todoboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/websocket-chat-application/websocket-chat-application.iml" filepath="$PROJECT_DIR$/websocket-chat-application/websocket-chat-application.iml" />
     </modules>
   </component>

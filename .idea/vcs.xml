@@ -5,10 +5,8 @@
     <mapping directory="$PROJECT_DIR$/ThymleaveTODO" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/reactive_springboot" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/redis" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/spring-boot-amqp-messaging" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/spring-boot-junit-testing" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/spring_boot_with_rabbitmq" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/todoboot" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/websocket-chat-application" vcs="Git" />
   </component>
 </project>
