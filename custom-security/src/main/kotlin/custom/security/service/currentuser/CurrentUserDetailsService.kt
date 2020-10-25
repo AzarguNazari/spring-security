@@ -20,5 +20,4 @@ class CurrentUserDetailsService(val userService: UserService) : UserDetailsServi
                 .orElseThrow { UsernameNotFoundException("User with email=$email was not found") }
         return CurrentUser(user)
     }
-
 }

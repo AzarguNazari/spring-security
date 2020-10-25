@@ -10,8 +10,8 @@ class CurrentUserServiceImpl : CurrentUserService {
 
     val LOGGER = LoggerFactory.getLogger(CurrentUserDetailsService::class.java)
 
-    override fun canAccessUser(currentUser: CurrentUser?, userId: Long?): Boolean {
-        LOGGER.debug("Checking if user={} has access to user={}", currentUser, userId)
+    override fun canAccessUser(currentUser: CurrentUser, userId: Long): Boolean {
+        LOGGER.debug("Checking if user=$currentUser has access to user=$userId")
         return (currentUser?.role === Role.ADMIN || currentUser?.id == userId)
     }
 }

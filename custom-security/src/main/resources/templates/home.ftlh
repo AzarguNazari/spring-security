@@ -1,8 +1,9 @@
 <#-- @ftlvariable name="_csrf" type="org.springframework.security.web.csrf.CsrfToken" -->
-<#-- @ftlvariable name="currentUser" type="com.hendisantika.example.domain.CurrentUser" -->
+<#-- @ftlvariable name="currentUser" type="custom.security.domain.CurrentUser" -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.css" type="text/css">
     <meta charset="utf-8">
     <title>Home page</title>
 </head>
@@ -12,7 +13,7 @@
     <#if !currentUser??>
         <li><a href="/login">Log in</a></li>
     </#if>
-    <#if currentUser??>
+    <#if currentUser??>CurrentUserControllerAdvice
         <li>
             <form action="/logout" method="post">
                 <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>

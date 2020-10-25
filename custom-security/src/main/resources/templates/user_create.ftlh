@@ -1,9 +1,10 @@
 <#-- @ftlvariable name="_csrf" type="org.springframework.security.web.csrf.CsrfToken" -->
-<#-- @ftlvariable name="form" type="com.hendisantika.example.domain.UserCreateForm" -->
+<#-- @ftlvariable name="form" type="custom.security.domain.UserCreateForm" -->
 <#import "/spring.ftl" as spring>
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.css" type="text/css">
     <meta charset="utf-8">
     <title>Create a new user</title>
 </head>
