@@ -2,14 +2,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.springboot</groupId>
-	<artifactId>springboot-exercise</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-exercise</name>
-	<description>Exercise about different parts of spring boot</description>
-	<packaging>pom</packaging>
+
+	<groupId>security</groupId>
+	<artifactId>securitiy</artifactId>
+	<version>1.0</version>
+	<name>securitiy</name>
+	<description>Spring Security Examples</description>
 
 	<modules>
-		<module>basic-authenication</module>
+		<module>basic-security</module>
+		<module>custom-security</module>
 	</modules>
+
+
 </project>
