@@ -37,22 +37,11 @@
   <component name="ChangeListManager">
     <list default="true" id="462198c2-b647-44c4-98d7-206b94f29265" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-security/src/main/kotlin/custom/security/CustomSecurity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/custom-security/src/main/kotlin/custom/security/App.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-security/src/main/kotlin/custom/security/controller/CurrentUserControllerAdvice.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-security/src/main/kotlin/custom/security/controller/ExceptionHandlerControllerAdvice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/custom-security/src/main/kotlin/custom/security/controller/ExceptionHandlerControllerAdvice.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-security/src/main/kotlin/custom/security/controller/HomeController.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-security/src/main/kotlin/custom/security/controller/LoginController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/custom-security/src/main/kotlin/custom/security/controller/MainController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-security/src/main/kotlin/custom/security/controller/UsersController.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-security/src/main/kotlin/custom/security/service/currentuser/CurrentUserDetailsService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/custom-security/src/main/kotlin/custom/security/service/currentuser/CurrentUserDetailsService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-security/src/main/kotlin/custom/security/service/currentuser/CurrentUserService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/custom-security/src/main/kotlin/custom/security/service/currentuser/CurrentUserService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-security/src/main/kotlin/custom/security/service/currentuser/CurrentUserServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/custom-security/src/main/kotlin/custom/security/service/currentuser/CurrentUserServiceImpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-security/src/main/kotlin/custom/security/service/user/UserServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/custom-security/src/main/kotlin/custom/security/service/user/UserServiceImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-security/src/main/kotlin/custom/security/SecurityConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/custom-security/src/main/kotlin/custom/security/SecurityConfig.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom-security/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/custom-security/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom-security/src/main/resources/templates/home.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/custom-security/src/main/resources/templates/home.ftlh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom-security/src/main/resources/templates/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/custom-security/src/main/resources/templates/login.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-security/src/main/resources/templates/user.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/custom-security/src/main/resources/templates/user.ftlh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom-security/src/main/resources/templates/user_create.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/custom-security/src/main/resources/templates/user_create.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-security/src/main/resources/templates/users.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/custom-security/src/main/resources/templates/users.ftlh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -435,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603630314263</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="update">
+      <created>1603631912314</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1603631912314</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,30 +475,46 @@
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="694" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1603630487910" />
-    <state width="1874" height="286" key="GridCell.Tab.0.bottom" timestamp="1603631829806">
+    <state width="1874" height="188" key="GridCell.Tab.0.bottom" timestamp="1603635763391">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1874" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1603631829806" />
-    <state width="1874" height="286" key="GridCell.Tab.0.center" timestamp="1603631829806">
+    <state width="1874" height="188" key="GridCell.Tab.0.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1603635763391" />
+    <state width="1874" height="188" key="GridCell.Tab.0.center" timestamp="1603635763391">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1874" height="286" key="GridCell.Tab.0.center/0.0.1920.1035@0.0.1920.1035" timestamp="1603631829806" />
-    <state width="1874" height="286" key="GridCell.Tab.0.left" timestamp="1603631829805">
+    <state width="1874" height="188" key="GridCell.Tab.0.center/0.0.1920.1035@0.0.1920.1035" timestamp="1603635763391" />
+    <state width="1874" height="188" key="GridCell.Tab.0.left" timestamp="1603635763390">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1874" height="286" key="GridCell.Tab.0.left/0.0.1920.1035@0.0.1920.1035" timestamp="1603631829805" />
-    <state width="1874" height="286" key="GridCell.Tab.0.right" timestamp="1603631829806">
+    <state width="1874" height="188" key="GridCell.Tab.0.left/0.0.1920.1035@0.0.1920.1035" timestamp="1603635763390" />
+    <state width="1874" height="188" key="GridCell.Tab.0.right" timestamp="1603635763391">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1874" height="286" key="GridCell.Tab.0.right/0.0.1920.1035@0.0.1920.1035" timestamp="1603631829806" />
+    <state width="1874" height="188" key="GridCell.Tab.0.right/0.0.1920.1035@0.0.1920.1035" timestamp="1603635763391" />
+    <state width="0" height="0" key="GridCell.Tab.1.bottom" timestamp="1603635763358">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.1.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1603635763358" />
+    <state width="0" height="0" key="GridCell.Tab.1.center" timestamp="1603635763357">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.1.center/0.0.1920.1035@0.0.1920.1035" timestamp="1603635763357" />
+    <state width="0" height="0" key="GridCell.Tab.1.left" timestamp="1603635763357">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.1.left/0.0.1920.1035@0.0.1920.1035" timestamp="1603635763357" />
+    <state width="0" height="0" key="GridCell.Tab.1.right" timestamp="1603635763358">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.1.right/0.0.1920.1035@0.0.1920.1035" timestamp="1603635763358" />
     <state x="731" y="367" key="NewModule_or_Project.wizard" timestamp="1603567742181">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="731" y="367" key="NewModule_or_Project.wizard/0.0.1920.1035@0.0.1920.1035" timestamp="1603567742181" />
-    <state x="556" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603630317331">
+    <state x="556" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603631914944">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state x="556" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1035@0.0.1920.1035" timestamp="1603630317331" />
+    <state x="556" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1035@0.0.1920.1035" timestamp="1603631914944" />
     <state x="664" y="227" width="687" height="580" key="find.popup" timestamp="1603551527133">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
@@ -511,6 +523,10 @@
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="594" y="220" key="new project wizard/0.0.1920.1035@0.0.1920.1035" timestamp="1603567740107" />
+    <state x="624" y="237" key="run.anything.popup" timestamp="1603635635303">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="624" y="237" key="run.anything.popup/0.0.1920.1035@0.0.1920.1035" timestamp="1603635635303" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1603631139146">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>

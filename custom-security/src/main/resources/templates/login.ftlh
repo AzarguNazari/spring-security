@@ -10,34 +10,65 @@
 <body>
 <nav role="navigation">
     <ul>
-        <li><a href="/">Home</a></li>
+        <li><a href="/" class="button is-primary m-2">Home</a></li>
     </ul>
 </nav>
 
-<h1>Log in</h1>
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Login
+      </h1>
+      <h2 class="subtitle">
 
-<p>You can use: demo@localhost / demo</p>
+        <div class="container mt-6">
+          <form role="form" action="/login" method="post">
+            <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
 
-<form role="form" action="/login" method="post">
-    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
 
-    <div>
-        <label for="email">Email address</label>
-        <input type="email" name="email" id="email" required autofocus/>
+              <div class="field">
+                <label class="label" for="email">Email address</label>
+                <div class="control">
+                  <input class="input" type="email" name="email" id="email" required autofocus/>
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label" for="password">Password</label>
+                <div class="control">
+                  <input class="input" type="password" name="password" id="password" required/>
+                </div>
+              </div>
+
+              <div class="field">
+                <div class="control">
+                    <label class="checkbox">
+                        <input type="checkbox"> Remember Me
+                    </label>
+                </div>
+              </div>
+
+              <div class="field is-grouped">
+                <div class="control">
+                  <button class="button is-link" type="submit">Login</button>
+                </div>
+              </div>
+          </form>
+
+            <#if error.isPresent()>
+                <div class="notification is-danger mt-4 p-4">
+                  <button class="delete"></button>
+                  The email or password you have entered is invalid, try again.
+                </div>
+            </#if>
+
+        </div>
+
+      </h2>
     </div>
-    <div>
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password" required/>
-    </div>
-    <div>
-        <label for="remember-me">Remember me</label>
-        <input type="checkbox" name="remember-me" id="remember-me"/>
-    </div>
-    <button type="submit">Sign in</button>
-</form>
+  </div>
+</section>
 
-<#if error.isPresent()>
-<p>The email or password you have entered is invalid, try again.</p>
-</#if>
 </body>
 </html>

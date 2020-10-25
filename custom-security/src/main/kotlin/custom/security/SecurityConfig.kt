@@ -16,8 +16,10 @@ internal class SecurityConfig(val userDetailsService: UserDetailsService) : WebS
     @Throws(Exception::class)
     override fun configure(http: HttpSecurity) {
 
+        http.headers().frameOptions().disable()
+
         http.authorizeRequests()
-            .antMatchers("/", "/public/**").permitAll()
+            .antMatchers("/", "/public/**", "/h2-console/**").permitAll()
             .antMatchers("/users/**").hasAuthority("ADMIN")
             .anyRequest().fullyAuthenticated()
             .and()
