@@ -9,7 +9,6 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-junit-testing/spring-boot-junit-testing.iml" filepath="$PROJECT_DIR$/spring-boot-junit-testing/spring-boot-junit-testing.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitMQStream/spring-cloud-stream-rabbitmq-publisher/spring-cloud-stream-rabbitmq-publisher.iml" filepath="$PROJECT_DIR$/rabbitMQStream/spring-cloud-stream-rabbitmq-publisher/spring-cloud-stream-rabbitmq-publisher.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitMQStream/spring-cloud-stream-rabbitmq-subscriber/spring-cloud-stream-rabbitmq-subscriber.iml" filepath="$PROJECT_DIR$/rabbitMQStream/spring-cloud-stream-rabbitmq-subscriber/spring-cloud-stream-rabbitmq-subscriber.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-security.iml" filepath="$PROJECT_DIR$/spring-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/websocket-chat-application/websocket-chat-application.iml" filepath="$PROJECT_DIR$/websocket-chat-application/websocket-chat-application.iml" />
     </modules>
   </component>

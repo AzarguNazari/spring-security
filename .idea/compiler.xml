@@ -3,6 +3,14 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-security" />
+        <module name="custom-security" />
+        <module name="spring-security.basic-security" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="basic-authenication" target="1.8" />
@@ -12,7 +20,6 @@
       <module name="spring-boot-junit-testing" target="1.8" />
       <module name="spring-cloud-stream-rabbitmq-publisher" target="1.8" />
       <module name="spring-cloud-stream-rabbitmq-subscriber" target="1.8" />
-      <module name="spring-security" target="1.5" />
       <module name="todoboot" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -21,6 +28,7 @@
       <module name="Reactive_Client" options="-parameters" />
       <module name="Reactive_Service" options="-parameters" />
       <module name="basic-authenication" options="-parameters" />
+      <module name="custom-security" options="-parameters" />
       <module name="rabbitMQStream" options="-parameters" />
       <module name="reactive_springboot" options="-parameters" />
       <module name="redis" options="-parameters" />
@@ -29,7 +37,8 @@
       <module name="spring-boot-junit-testing" options="-parameters" />
       <module name="spring-cloud-stream-rabbitmq-publisher" options="-parameters" />
       <module name="spring-cloud-stream-rabbitmq-subscriber" options="-parameters" />
-      <module name="spring-security" options="-parameters" />
+      <module name="spring-security" options="" />
+      <module name="spring-security.basic-security" options="-parameters" />
       <module name="todoboot" options="-parameters" />
       <module name="websocket-chat-application" options="-parameters" />
     </option>
